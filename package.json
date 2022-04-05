@@ -2,6 +2,9 @@
   "name": "workstation-server",
   "version": "1.0.0",
   "description": "Fake REST API",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "index.js",
   "scripts": {
     "json:server": "json-server --watch db.json",
