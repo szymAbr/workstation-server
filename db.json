@@ -1,0 +1,10 @@
+{
+  "workstation-shopping": [
+    {
+      "name": "CPU",
+      "description": "intel core i5-10400f",
+      "category": "internal components",
+      "price": 1000
+    }
+  ]
+}
