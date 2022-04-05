@@ -1,5 +1,16 @@
 {
+  "name": "workstation-server",
+  "version": "1.0.0",
+  "description": "Fake REST API",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "heroku": "^7.59.3",
     "json-server": "^0.17.0"
   }
 }
